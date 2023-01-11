@@ -1,0 +1,89 @@
+body {
+    --nav-width: 200px;
+    margin: 0 0 0 var(--nav-width);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    background-image: url('/static/js/views/images/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+/*body:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #52c4df, #ad55c1);
+    opacity: 0.7;
+    z-index: -1;
+    background-attachment: scroll;
+}*/
+
+head {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+
+.nav {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    float: left;
+    width: var(--nav-width);
+    height: 10vh;
+    width: 300vh;
+    background: black;
+}
+
+.nav__link {
+    display: inline-block;
+    padding: 12px 20px;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav__link:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+#app {
+    margin: 2em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+a {
+    color: #009579;
+}
+
+p {
+    text-align: justify;
+}
+p.tt{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+
+h1.tt {
+    color: aliceblue;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+  }
